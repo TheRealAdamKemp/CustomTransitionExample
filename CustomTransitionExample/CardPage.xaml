@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CustomTransitionExample.CardPage"
+    BackgroundColor="Transparent">
+    <ContentPage.Content>
+        <Grid HeightRequest="300" WidthRequest="300" BackgroundColor="Maroon" VerticalOptions="Center" HorizontalOptions="Center">
+            <Button Text="Dismiss" Clicked="OnClicked" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
